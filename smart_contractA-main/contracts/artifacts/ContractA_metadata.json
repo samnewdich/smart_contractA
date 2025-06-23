@@ -75,6 +75,25 @@
 				],
 				"stateMutability": "payable",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "storeName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -105,11 +124,11 @@
 	},
 	"sources": {
 		"smart_contractA-main/contracts/ContractA.sol": {
-			"keccak256": "0xf3533d48c63f80805e2ef041589eb23cafd80da9734a0307339017486c744e4b",
+			"keccak256": "0xcf8208f2f41b276cf2e5483bdaebb1787bf3b9900bdb085f5d99f266ae3f0db3",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://983ff5e30f78c78a4e50b49e275fa1c0a1a1064876f994cb871ee1670fb0873b",
-				"dweb:/ipfs/QmVyFgQVNHJFoVsdzDMwR5zV26g67WxD42Q2p1jaT6qx8P"
+				"bzz-raw://3bb8f57c78380e387783ca289a81f400e466bff10d7e7edab3dc79aa4dfd6492",
+				"dweb:/ipfs/QmUqMr2pUo1AxeWuKzCL35NhQho6GDpCM5sgwCzjAEdV7w"
 			]
 		}
 	},

@@ -23,4 +23,8 @@ contract ContractA{
         _rec.transfer(msg.value);
         return msg.sender.balance;
     }
+
+    function storeName(string memory _name) public view returns(string memory){
+        
+    }
 }
